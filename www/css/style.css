@@ -1,14 +1,33 @@
-/**/
+/* Fontes */
+
+
+
+/* Design */
+
 button, label {
   margin-top: 20px;
-  color:#0A1B3B;
+  color:#1F1A06;
+  
+}
+
+button{
+    background-color: #742A02;
+}
+
+button, label, input{
+    margin-left:10%;
 }
 
 body{
-    background-color:#BDD2FA;
+    background-color:#DC7138;
+    color:#A07E03;
+    font-size: 14px;
+    font-family: 'Merienda', cursive;
 }
 
 .jumbotron{
-    background-color: #2269ED;
-    color:#050E1E0D3F9C;
+    width:99%;
+    font-family: 'Pacifico', cursive;
+    background-color: #9A3702;
+    color:#1F1A06;
 }
