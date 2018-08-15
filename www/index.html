@@ -18,70 +18,48 @@
  
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
+
   <div class="row">
+  
     <div class="col-xs-12"></div>
     <div class="jumbotron">
       <h1>Calculadora do Blay</h1>
     </div>
-  </div>
-</div>
-<div class="row">
-    <div class="col-xs-10">
-        <input type="button" onclick="/calculator.html" value="Calculadora 2" class="form-control" />
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-xs-10">
-        <label for="valor1">Valor 1</label>
-        <input type="number" id="valor1"  class="form-control" min="0" />
-    </div>
-
-</div>
-
-<div class="row">
-    <div class="col-xs-10">
-        <div class="form-group">
-            <label for="valor2">Valor 2</label>
-            <input type="number" id="valor2"  class="form-control" min="0" />
-        </div>
-    </div>
-
-</div>
-
-<div class="row">
-    <div class="col-xs-10" >
-        <div class="form-group">
-            <label for="res">Resultado</label>
-            <input type="number" id="res"  class="form-control" min="0" readonly />
-        </div>
-    </div>
-
-</div>
-
-<div class="row">
-    <div class="col-xs-10">
     
-        <div class="form-group">
-            <input type="button" class="form-control" onclick="calcular()" value="Calcular!"/>
-        </div>
+  </div>
+  
+
+
+<div class="row">
+    <div class="col-xs-10">
+        <input type="text"  />
     </div>
+    
+</div>
+
+<div class="row">
+    <div class="col-xs-3">
+    <div class="button-group">
+        <input type="button" value="7" />
+    </div>
+    <div class="col-xs-3">
+        <input type="button" value="8" />
+    </div>
+    <div class="col-xs-3">
+        <input type="button" value="9" />
+    </div>
+    <div class="col-xs-3">
+        <input type="button" value="+" id="sum" />
+    </div>
+    </div>
+    
+</div>
+
 </div>
 </body>
 <!-- SCRIPT -->
    <script>
-   
-        function calcular(){
-            
-            var x1 = parseFloat(document.getElementById("valor1").value);
-            var x2 = parseFloat(document.getElementById("valor2").value);
-            document.getElementById("res").value = x1 + x2;
-        }
-        
-        function ir(){
-            
-        }
 
   </script>
 </html>
